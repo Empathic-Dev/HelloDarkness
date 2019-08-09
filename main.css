@@ -25,7 +25,7 @@ section{
   align-items: center;
 }
 
-/* @media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark){
   html,body{
     background-color: #161B21;
   }
@@ -40,4 +40,5 @@ section{
   h1:after{
     content: "light";
   }
-} */
+}
+
