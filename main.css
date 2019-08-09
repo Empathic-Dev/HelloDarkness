@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+h1{
+  font-family: 'IBM Plex Mono', monospace;
+}
+section{
+  background-color: var(--sect-bg);
+  color: var(--color);
+  height: 10vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* @media (prefers-color-scheme: dark){
+  html,body{
+    background-color: #161B21;
+  }
+  h1:after{
+    content: "dark";
+  }
+}
+@media (prefers-color-scheme: light){
+  html,body{
+    background-color: #8BB0D9;
+  }
+  h1:after{
+    content: "light";
+  }
+} */
