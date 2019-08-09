@@ -12,10 +12,7 @@ body{
   align-items: center;
   font-family: 'IBM Plex Sans', sans-serif;
 }
-h1{
-  font-family: 'IBM Plex Mono', monospace;
-}
-section{
+header{
   background-color: var(--sect-bg);
   color: var(--color);
   height: 10vh;
@@ -23,6 +20,9 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+h1{
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 @media (prefers-color-scheme: dark){
