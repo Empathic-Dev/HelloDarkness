@@ -36,8 +36,17 @@ aside div{
   align-items: center;
   border: 1px solid orange;
 }
-aside img{
+aside .png{
   border: 1px solid red;
+  width: 100%;
+  background: url(/HelloDarkness/imgs/night_mode.png);
+}
+aside .png{
+  border: 1px solid red;
+  width: 100%;
+  background: url(/HelloDarkness/imgs/light_mode.png);
+}
+.png-img, .svg-img{
   width: 100%;
 }
 
