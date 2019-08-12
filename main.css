@@ -40,11 +40,13 @@ aside .png{
   border: 1px solid red;
   width: 100%;
   background: url(/HelloDarkness/imgs/night_mode.png);
+  background-size: contain;
 }
 aside .png{
   border: 1px solid red;
   width: 100%;
   background: url(/HelloDarkness/imgs/light_mode.png);
+  background-size: contain;
 }
 .png-img, .svg-img{
   width: 100%;
