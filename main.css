@@ -42,6 +42,7 @@ aside .png{
   background: url(/HelloDarkness/imgs/night_mode.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 aside .svg{
   border: 1px solid red;
@@ -49,6 +50,7 @@ aside .svg{
   background: url(/HelloDarkness/imgs/light_mode.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .png-img, .svg-img{
   width: 100%;
