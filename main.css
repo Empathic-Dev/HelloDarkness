@@ -34,7 +34,7 @@ aside div{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 aside .png{
   border: 1px solid red;
@@ -43,10 +43,10 @@ aside .png{
   background-size: contain;
   background-repeat: no-repeat;
 }
-aside .png{
+aside .svg{
   border: 1px solid red;
   width: 100%;
-  background: url(/HelloDarkness/imgs/light_mode.png);
+  background: url(/HelloDarkness/imgs/light_mode.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
