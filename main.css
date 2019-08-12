@@ -37,7 +37,7 @@ aside div{
   /* border: 1px solid orange; */
 }
 aside .png{
-  border: 1px solid red;
+  /* border: 1px solid; */
   width: 100%;
   background: url(/HelloDarkness/imgs/night_mode.png);
   background-size: contain;
@@ -45,7 +45,7 @@ aside .png{
   background-position: center;
 }
 aside .svg{
-  border: 1px solid red;
+  /* border: 1px solid; */
   width: 100%;
   background: url(/HelloDarkness/imgs/light_mode.svg);
   background-size: contain;
