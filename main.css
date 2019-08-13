@@ -149,15 +149,6 @@ footer {
   justify-content: center;
 }
 
-@media (prefers-color-scheme: dark){
-  html,body{
-    background-color: #1c1c1c;
-    color: #e6e7e8;
-  }
-  h1:after{
-    content: "dark";
-  }
-}
 @media (prefers-color-scheme: light){
   html,body{
     background-color: #e6e7e8;
@@ -171,5 +162,10 @@ footer {
   }
   aside .svg{
     background: url(/HelloDarkness/imgs/light_mode.png);
+  }
+  .svg, .png{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
   }
 }
