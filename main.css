@@ -149,6 +149,15 @@ footer {
   justify-content: center;
 }
 
+@media (prefers-color-scheme: dark){
+  html,body{
+    background-color: #e6e7e8;
+    color: #1c1c1c;
+  }
+  h1:after{
+    content: "light";
+  }
+}
 @media (prefers-color-scheme: light){
   html,body{
     background-color: #e6e7e8;
