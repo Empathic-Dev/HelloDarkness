@@ -163,7 +163,7 @@ footer {
   aside .svg{
     background: url(/HelloDarkness/imgs/light_mode.png);
   }
-  .svg, .png{
+  aside .svg, aside .png{
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 100%;
