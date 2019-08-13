@@ -151,11 +151,11 @@ footer {
 
 @media (prefers-color-scheme: dark){
   html,body{
-    background-color: #e6e7e8;
-    color: #1c1c1c;
+    background-color: #1c1c1c;
+    color: #e6e7e8;
   }
   h1:after{
-    content: "light";
+    content: "dark";
   }
 }
 @media (prefers-color-scheme: light){
