@@ -166,4 +166,10 @@ footer {
   h1:after{
     content: "light";
   }
+  aside .png{
+    background: url(/HelloDarkness/imgs/light_mode.png);
+  }
+  aside .svg{
+    background: url(/HelloDarkness/imgs/light_mode.png);
+  }
 }
