@@ -53,7 +53,7 @@ hr{
 aside .svg{
   /* border: 1px solid; */
   width: 100%;
-  background: url(/HelloDarkness/imgs/light_mode.svg);
+  background: url(/HelloDarkness/imgs/night_mode.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 100%;
