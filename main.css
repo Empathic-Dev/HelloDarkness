@@ -35,12 +35,10 @@ aside div{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  /* border: 1px solid orange; */
 }
 aside .png{
-  /* border: 1px solid; */
   width: 100%;
-  background: url(/HelloDarkness/imgs/night_mode.png);
+  background: url(/imgs/night_mode.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 100%;
@@ -51,9 +49,8 @@ hr{
   margin: auto;
 }
 aside .svg{
-  /* border: 1px solid; */
   width: 100%;
-  background: url(/HelloDarkness/imgs/night_mode.svg);
+  background: url(/imgs/night_mode.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 100%;
@@ -65,7 +62,6 @@ aside .svg{
 .posts{
   margin: .5rem;
   border: 1px solid;
-  box-shadow: 5px 5px 10px #030303;
 }
 .frame{
   background-image:url(https://placekitten.com/700/700);
@@ -73,7 +69,6 @@ aside .svg{
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  /* border: 1px solid red; */
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -82,7 +77,6 @@ aside .svg{
   border-radius: 5px;
 }
 .frame a .caption {
-  background-color: rgba(28, 28, 28, 0.9);
   display: block;
   overflow: hidden;
   padding: 1rem;
@@ -101,11 +95,9 @@ aside .svg{
   transition: all 1s;
 }
 .frame a .caption h2 {
-  color: #e6e7e8;
   text-align: center;
 }
 .frame a .caption p {
-  color: #e6e7e8;
   display: none;
   line-height: 150%;
   transition: all 1s;
@@ -118,27 +110,21 @@ aside .svg{
 
 .article1 {
   grid-area: article1;
-  /* border: 1px dashed; */
 }
 .article2 {
   grid-area: article2;
-  /* border: 1px dashed; */
 }
 .article3 {
   grid-area: article3;
-  /* border: 1px dashed; */
 }
 .article4 {
   grid-area: article4;
-  /* border: 1px dashed; */
 }
 .article7 {
   grid-area: article7;
-  /* border: 1px dashed; */
 }
 .article8 {
   grid-area: article8;
-  /* border: 1px dashed; */
 }
 
 footer {
@@ -147,47 +133,4 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media (prefers-color-scheme: dark){
-  html,body{
-    background-color: #1c1c1c;
-    color: #e6e7e8;
-  }
-  h1:after{
-    content: "dark";
-  }
-}
-@media (prefers-color-scheme: light){
-  html,body{
-    background-color: #e6e7e8;
-    color: #1c1c1c;
-  }
-  h1:after{
-    content: "light";
-  }
-  aside .png{
-    background: url(/HelloDarkness/imgs/light_mode.png);
-  }
-  aside .svg{
-    background: url(/HelloDarkness/imgs/light_mode.png);
-  }
-  aside .svg, aside .png{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 100%;
-  }
-
-  .posts{
-    box-shadow: 5px 5px 10px #696963;
-  }
-  .frame a .caption {
-    background-color: rgba(230, 231, 232, 0.9);
-  }
-  .frame a .caption h2 {
-    color: #1c1c1c;
-  }
-  .frame a .caption p {
-    color: #1c1c1c;
-  }
 }
