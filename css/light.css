@@ -1,12 +1,5 @@
 :root{
-    /* body background color */
-  --background-color:#8BB0D9;
 
-    /* section background color */
-  --sect-bg: #4581C3;
-
-    /* text color */
-  --color: #161B21;
 }
 h1:after{
   content: "light";
