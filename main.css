@@ -65,7 +65,7 @@ aside .svg{
 .posts{
   margin: .5rem;
   border: 1px solid;
-  box-shadow: 5px 5px 10px #1c1c1c;
+  box-shadow: 5px 5px 10px #030303;
 }
 .frame{
   background-image:url(https://placekitten.com/700/700);
@@ -176,5 +176,18 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 100%;
+  }
+
+  .posts{
+    box-shadow: 5px 5px 10px #696963;
+  }
+  .frame a .caption {
+    background-color: rgba(230, 231, 232, 0.9);
+  }
+  .frame a .caption h2 {
+    color: #1c1c1c;
+  }
+  .frame a .caption p {
+    color: #1c1c1c;
   }
 }
