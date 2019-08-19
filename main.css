@@ -40,7 +40,7 @@ aside div{
 aside .png{
   /* border: 1px solid; */
   width: 100%;
-  background: url(/HelloDarkness/imgs/night_mode.png);
+  background: url(/HelloDarkness/imgs/light_mode.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 100%;
